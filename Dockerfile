@@ -1,3 +1,2 @@
-FROM python:3.9-slim
-WORKDIR /app
-CMD ["echo", "Hello from Docker!"]
+FROM registry.cn-hangzhou.aliyuncs.com/lnstzy/nginx:alpine
+EXPOSE 80
